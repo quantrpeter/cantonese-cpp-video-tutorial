@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    int count = 0;
+    for (int n = 2; n < 500000; n++) {
+        bool prime = true;
+        for (int d = 2; d * d <= n; d++) {
+            if (n % d == 0) {
+                prime = false;
+                break;
+            }
+        }
+        if (prime) count++;
+    }
+    std::cout << "primes: " << count << '\n';
+}
