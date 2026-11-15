@@ -4,7 +4,7 @@
 countA(std::string_view) takes a std::string or a literal without copying: 3 3. total(std::span
 <const int>) takes a vector or a C array: 6 15. The danger: a string_view made from a temporary
 std::string really prints garbage, and AddressSanitizer really reports heap-use-after-free;
-g++ -Wall says nothing. Run `python3 video105.py --help` for options.
+g++ -Wall says nothing. Run `python3 video8.18.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

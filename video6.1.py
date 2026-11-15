@@ -3,7 +3,7 @@
 
 Two parallel vectors versus one struct Student; the missing semicolon after the struct is a real
 "expected ';' after struct definition" error; aggregate initialisation, member access with a
-dot, changing a member, and a vector<Student>. Run `python3 video63.py --help` for options.
+dot, changing a member, and a vector<Student>. Run `python3 video6.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

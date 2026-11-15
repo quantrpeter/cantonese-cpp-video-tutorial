@@ -6,7 +6,7 @@ Part 9 together: a Book class keeps a vector<Expense>, throws std::invalid_argum
 Real session 1: "add abc bus" gives error: stod (std::stod threw), "add -5 gift" gives
 error: amount <= 0, the list is lunch 12.5 / book 30, total 42.5; `cat expenses.csv` shows
 12.5,lunch / 30,book. Real session 2 loads them back: after adding coffee the total is 50.
-Run `python3 video117.py --help` for options.
+Run `python3 video9.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

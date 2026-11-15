@@ -4,7 +4,7 @@
 The standard library as three parts: containers, iterators, algorithms. One algorithm
 (std::count) really works on a std::vector, a std::list and a std::string through
 begin()/end(): 2 3 3. std::sort on the vector really prints 64 64 72 91.
-Run `python3 video88.py --help` for options.
+Run `python3 video8.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -6,7 +6,7 @@ First version: thread t takes n = t, t + threads, …; the real timings barely i
 threads, because one thread gets all the even numbers (instant) and the other all the odd ones.
 Final version: threads grab chunks of 1000 from an std::atomic<int> next, so the work is shared
 evenly and the real timings drop with more threads. Spoken numbers are the measured ones.
-Run `python3 video132.py --help` for options.
+Run `python3 video11.7.py --help` for options.
 """
 
 import re

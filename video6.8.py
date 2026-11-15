@@ -3,7 +3,7 @@
 
 Vec2: `a + b` before operator+ exists is a real "no match for 'operator+'" error; operator+ as
 a member function (4 6); operator<< as a free function so cout prints (4, 6); a defaulted
-operator<=> (C++20) gives ==, < and friends: a == b is 0, a < b is 1. Run `python3 video70.py --help`.
+operator<=> (C++20) gives ==, < and friends: a == b is 0, a < b is 1. Run `python3 video6.8.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

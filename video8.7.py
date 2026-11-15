@@ -4,7 +4,7 @@
 Distinct visitors: "Amy Ben Amy Cat Ben Amy" into a std::set really gives 3: Amy Ben Cat
 (sorted, no repeats). insert() returns {iterator, added}, so repeats can be reported (again: Amy,
 again: Ben, again: Amy). A std::multiset keeps duplicates: count(72) is 3; erase(find(72))
-removes one (64 72 72 91) but erase(72) removes all (size 2). Run `python3 video94.py --help`.
+removes one (64 72 72 91) but erase(72) removes all (size 2). Run `python3 video8.7.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

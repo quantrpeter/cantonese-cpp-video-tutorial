@@ -4,7 +4,7 @@
 std::binary_search for 45 in the unsorted {72, 45, 91, 58} really prints 0 although 45 is there.
 On the sorted {45, 58, 72, 72, 72, 91}: 72 is found, 60 is not (1 0); lower_bound / upper_bound
 for 72 are positions 2 and 5, so 3 copies; inserting 60 at lower_bound(60) keeps it sorted
-(45 58 60 72 72 72 91). Run `python3 video101.py --help` for options.
+(45 58 60 72 72 72 91). Run `python3 video8.14.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

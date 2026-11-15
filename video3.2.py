@@ -3,7 +3,7 @@
 
 square(x) with a parameter and return; using the result directly or in a variable; max3(a, b, c)
 typed without its return: g++'s -Wreturn-type warning, and the program really crashes (GCC traps
-at the missing return); adding `return best;` gives 42. Run `python3 video31.py --help`.
+at the missing return); adding `return best;` gives 42. Run `python3 video3.2.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

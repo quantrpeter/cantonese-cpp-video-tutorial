@@ -5,7 +5,7 @@ A FileLog (with a 1000-int vector) owned through std::unique_ptr<Log>. With a pl
 real run prints only "~Log": ~FileLog never runs, so its vector is never freed; AddressSanitizer
 really reports new-delete-type-mismatch (32 bytes allocated, 8 deleted). virtual ~Log() fixes
 it (~FileLog then ~Log). `final` on FileLog makes deriving from it a real error.
-Run `python3 video77.py --help` for options.
+Run `python3 video6.15.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

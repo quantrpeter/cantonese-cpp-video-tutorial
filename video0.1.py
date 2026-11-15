@@ -4,11 +4,11 @@
 What a program is, where C++ came from and where it is used, compiled vs interpreted (with a
 real C++ vs Python race in the GCC container), and a map of the course.
 
-    python3 video1.py              # -> out/video1.mp4 (narration is cached; reruns are quick)
-    python3 video1.py --draft      # silent, estimated timing, fast: for checking layout
-    python3 video1.py --stills     # two PNGs per scene in build/video1/stills/
-    python3 video1.py --redo why   # regenerate one scene's narration
-    python3 video1.py --help
+    python3 video0.1.py              # -> out/video0.1.mp4 (narration is cached; reruns are quick)
+    python3 video0.1.py --draft      # silent, estimated timing, fast: for checking layout
+    python3 video0.1.py --stills     # two PNGs per scene in build/video0.1/stills/
+    python3 video0.1.py --redo why   # regenerate one scene's narration
+    python3 video0.1.py --help
 """
 
 import re

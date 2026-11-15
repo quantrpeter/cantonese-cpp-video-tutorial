@@ -4,7 +4,7 @@
 minMax returns a std::pair: p.first / p.second really print 58 91; auto [lo, hi] gives the same
 with names. top() returns a std::tuple of three; binding only two names is a real "only 2 names
 provided for structured binding" error; three names print Amy 91 A. Bindings in a range-for
-over pairs print Ben=64 Cat=80. Run `python3 video91.py --help` for options.
+over pairs print Ben=64 Cat=80. Run `python3 video8.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -3,7 +3,7 @@
 
 Part 4's project: a two-player tic-tac-toe with Grid (a 2D vector), show(), same(), wins() and a
 main loop. Without the "taken" check O really takes X's square (stopped with Ctrl+C); with it, a
-real game is played to X winning on a diagonal. Run `python3 video51.py --help` for options.
+real game is played to X winning on a diagonal. Run `python3 video4.10.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -3,7 +3,7 @@
 
 Five dice rolls with std::mt19937 and uniform_int_distribution: seed 42 really gives the same
 rolls on two runs; a generator made inside the loop rolls the same number five times; seeding
-from std::random_device makes two runs differ; why not rand(). Run `python3 video28.py --help`.
+from std::random_device makes two runs differ; why not rand(). Run `python3 video2.10.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

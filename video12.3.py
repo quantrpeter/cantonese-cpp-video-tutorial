@@ -4,7 +4,7 @@
 pre[i] = pre[i-1] + a[i] turns every range sum into one subtraction: pre[r] - pre[l-1]. With
 in.txt (array 3 1 4 1 5 and queries 1-3, 2-5, 4-4) the real run prints 8, 11, 1. Building pre is
 O(n), each query O(1). 2D prefix sums use inclusion–exclusion (the challenge prints 28).
-Run `python3 video135.py --help` for options.
+Run `python3 video12.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

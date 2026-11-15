@@ -4,7 +4,7 @@
 Word count with std::map<std::string, int>: typing "the cat and the hat / and the bat" then
 Ctrl+D really prints the words in alphabetical order (and 2, bat 1, cat 1, hat 1, the 3).
 The trap: just reading count["dog"] really inserts it (size 5 → 6); count.contains("dog") does
-not (5 0 5). Run `python3 video92.py --help` for options.
+not (5 0 5). Run `python3 video8.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

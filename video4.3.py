@@ -3,7 +3,7 @@
 
 A show() helper (const reference + range-for), then insert, erase, front, back and clear, each
 result printed by a real run; nums[5] is caught by g++ 15's debug assertion at -O0, but with -O2 it really prints
-whatever is in memory while nums.at(5) still stops with std::out_of_range. Run `python3 video44.py --help` for options.
+whatever is in memory while nums.at(5) still stops with std::out_of_range. Run `python3 video4.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

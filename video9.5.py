@@ -4,7 +4,7 @@
 parseInt returns std::expected<int, std::string> (C++23, built with -std=c++23): a value, or
 std::unexpected with the reason. The real run over "42", "4x2" and "" prints ok 42 / error: not a
 digit / error: empty; value_or(-1) on "7x" prints -1. Compared with optional (no reason) and
-exceptions (control jumps away). Run `python3 video113.py --help` for options.
+exceptions (control jumps away). Run `python3 video9.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

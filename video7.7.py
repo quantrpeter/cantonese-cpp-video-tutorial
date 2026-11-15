@@ -6,7 +6,7 @@ doubles the capacity (the real run prints 1/1 2/2 3/4 4/4 5/8), then the rule of
 constructor, move constructor, and one by-value operator= that swaps. The real run prints
 99 10 0 (b is a real copy, a was moved from) and "there 2" for MiniVector<std::string>; built
 with -fsanitize=address it really prints the same and reports nothing.
-Run `python3 video87.py --help` for options.
+Run `python3 video7.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -5,7 +5,7 @@ Three classic dynamic programmes in one file: 0/1 knapsack (weights 1 3 4 5, val
 capacity 7) with a one-row table filled from high capacity down; longest increasing subsequence
 of 10 9 2 5 3 7 101 18 in O(n²); longest common subsequence of ABCBDAB and BDCABA with a 2D
 table. The real run prints knapsack 9, lis 4, lcs 4. The challenge is minimum coins (1, 3, 4 → 6
-needs 2). Run `python3 video147.py --help` for options.
+needs 2). Run `python3 video12.15.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -4,7 +4,7 @@
 int* p = marks (the array decays to &marks[0]); *(p + 2) and p[3]; the real addresses of p and
 p + 1 are 4 bytes apart; walking the array with a pointer up to marks + 5; with <= the walk really
 reads one past the end, and AddressSanitizer reports a stack-buffer-overflow at that line.
-Run `python3 video56.py --help` for options.
+Run `python3 video5.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

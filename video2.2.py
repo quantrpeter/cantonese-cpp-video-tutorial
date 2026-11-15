@@ -4,7 +4,7 @@
 The leap-year rule built up in three real runs: `by4` alone gets 1900 wrong, `by4 && !by100`
 gets 2000 wrong, `(by4 && !by100) || by400` gets all three right. The truth table comes from a
 real run; short-circuit evaluation as a guard against dividing by zero.
-Run `python3 video20.py --help` for options.
+Run `python3 video2.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

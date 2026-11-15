@@ -5,7 +5,7 @@ Shortest number of steps through a 5 × 7 maze from S (top left) to E (bottom ri
 queue visits cells in order of distance, so the first time a cell is reached is the shortest.
 `from` remembers where each cell was reached from, to draw the path. The real run prints steps 10
 and the maze with the path marked by *. The challenge also counts reachable cells (26).
-Run `python3 video143.py --help` for options.
+Run `python3 video12.11.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

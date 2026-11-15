@@ -5,7 +5,7 @@ average() asserts its vector is not empty: average({72, 64}) prints 68, average(
 with "Assertion `!v.empty() && "need at least one mark"' failed." and Aborted. Built with
 -DNDEBUG the assert is gone and the same call really prints nan. static_assert(sizeof(int) == 8)
 is a real compile error ("the comparison reduces to '(4 == 8)'"); with 4 it builds and prints 68.
-Run `python3 video112.py --help` for options.
+Run `python3 video9.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

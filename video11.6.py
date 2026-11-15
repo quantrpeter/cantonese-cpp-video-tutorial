@@ -4,7 +4,7 @@
 std::async runs half of a 10,000,000-element sum on another thread while main sums the other half;
 left.get() + right really prints 10000000. An exception thrown inside an async task is re-thrown
 by get(): the run prints "caught oops". A std::promise set from a jthread delivers 42 through
-its std::future. Run `python3 video131.py --help` for options.
+its std::future. Run `python3 video11.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

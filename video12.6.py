@@ -4,7 +4,7 @@
 Activity selection: pick as many non-overlapping activities as possible from 7. Greedy by
 earliest start really picks only 0-6 and 6-10 (count 2); greedy by earliest end picks 1-4, 5-7,
 8-11 (count 3), which is optimal: the exchange argument explains why. The challenge is greedy
-change-making with HK coins: 63 needs 4 coins. Run `python3 video138.py --help` for options.
+change-making with HK coins: 63 needs 4 coins. Run `python3 video12.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

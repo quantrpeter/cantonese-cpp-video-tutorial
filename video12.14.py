@@ -5,7 +5,7 @@ Climbing n stairs one or two steps at a time: ways(n) = ways(n-1) + ways(n-2). F
 recursion really makes 331,160,281 calls; with memoisation it makes 79; the bottom-up table needs
 no recursion at all and also gives n = 90 instantly (4660046610375530309). All three print
 165580141. The challenge allows steps of 1, 2 or 3 (274 ways for 10 stairs).
-Run `python3 video146.py --help` for options.
+Run `python3 video12.14.py --help` for options.
 """
 
 import re

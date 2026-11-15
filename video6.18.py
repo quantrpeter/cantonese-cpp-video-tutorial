@@ -5,7 +5,7 @@ Part 6 together: an abstract Shape (virtual destructor, pure virtual area() and 
 and Rect, readShape() returning std::unique_ptr<Shape>, and a std::vector of them.
 push_back(s) without std::move is a real, very long template error whose one useful line is
 "shapes.cpp:60:25: required from here" (unique_ptr cannot be copied); with std::move the real session (c 1, r 2 3, x, q) prints unknown shape, circle 3.14159,
-rect 6, total 9.14159. Run `python3 video80.py --help` for options.
+rect 6, total 9.14159. Run `python3 video6.18.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

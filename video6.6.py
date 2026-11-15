@@ -4,7 +4,7 @@
 this points at the object a member function was called on; add() returns *this so calls chain
 (add(3).add(4) really gives 7); report(const Counter&) calling a non-const show() is a real
 "discards qualifiers" error; marking show() and count() const fixes it.
-Run `python3 video68.py --help` for options.
+Run `python3 video6.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

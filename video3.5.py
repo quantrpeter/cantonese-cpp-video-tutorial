@@ -3,7 +3,7 @@
 
 `int nick = score;` is a copy (score stays 10); adding one & makes nick a second name for the
 same box (both 15); changing score changes nick; `int& bad;` is a real "declared as reference
-but not initialized" error. Run `python3 video34.py --help` for options.
+but not initialized" error. Run `python3 video3.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

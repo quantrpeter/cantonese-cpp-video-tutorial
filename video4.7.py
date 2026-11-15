@@ -3,7 +3,7 @@
 
 Parsing "08:30": find(':'), substr, std::stoi, std::to_string and replace; typing "0830" really
 gives npos, a nonsense 50630 minutes and an out_of_range abort from replace; checking for
-std::string::npos fixes it. Run `python3 video48.py --help` for options.
+std::string::npos fixes it. Run `python3 video4.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

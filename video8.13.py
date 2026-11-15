@@ -4,7 +4,7 @@
 find, accumulate and min_element on {72, 45, 91, 58, 45} really print "91 at 2" and "311 45";
 transform adds 5 to every mark (77 50 96 63 50). std::remove alone does not shrink the vector:
 g++ really warns the nodiscard result was ignored and the run prints 77 96 63 63 50. The
-erase-remove idiom prints 77 96 63. Run `python3 video100.py --help` for options.
+erase-remove idiom prints 77 96 63. Run `python3 video8.13.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

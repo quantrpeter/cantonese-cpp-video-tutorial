@@ -3,7 +3,7 @@
 
 const int* p: *p = 10 is a real "read-only location" error, but p can point elsewhere;
 int* const q: *q = 10 works, but q = &b is a real "read-only variable" error; reading the type
-from right to left. Run `python3 video57.py --help` for options.
+from right to left. Run `python3 video5.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

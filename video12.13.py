@@ -4,7 +4,7 @@
 Union-find (DSU): every element points to a parent; the root names the group. find() uses path
 compression, unite() hangs the smaller tree under the bigger. With 6 people and the operations in
 in.txt the real run answers no (0 and 3 apart), yes (after linking 1 and 2), no (4 and 5), and
-"groups 3". The challenge detects the edge that closes a cycle (2-0). Run `python3 video145.py --help`.
+"groups 3". The challenge detects the edge that closes a cycle (2-0). Run `python3 video12.13.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -5,7 +5,7 @@ Explicit std::vector<int>, std::pair<int, double> and Box<double> really print 3
 the angle brackets removed (class template argument deduction) the output is the same. The
 pitfall: std::vector names{"Amy", "Ben"} deduces const char*, so names[0] + names[1] is a real
 "invalid operands ... {aka 'const char*'}" error; std::vector<std::string> prints AmyBen.
-Run `python3 video83.py --help` for options.
+Run `python3 video7.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -5,7 +5,7 @@ A noexcept function that throws: g++ really warns "'throw' will always call 'ter
 the run aborts even inside try/catch. A vector growing to 3 Items really calls the copy
 constructor (copy copy copy) while Item's move constructor is not noexcept, and the move
 constructor once it is (move move move): the strong guarantee at work.
-Run `python3 video111.py --help` for options.
+Run `python3 video9.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

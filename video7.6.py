@@ -4,7 +4,7 @@
 Two sum overloads (2 and 3 ints) really print 3 6. One variadic template with a fold
 expression (args + ...) handles any count and mixed types: 3 10 / 6.5. sum() with no
 arguments is a real "fold of empty expansion over operator+" error; (0 + ... + args) gives 0.
-print() uses sizeof... and a comma fold: "4: Amy 72 A 3.5". Run `python3 video86.py --help`.
+print() uses sizeof... and a comma fold: "4: Amy 72 A 3.5". Run `python3 video7.6.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

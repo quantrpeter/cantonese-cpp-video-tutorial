@@ -5,7 +5,7 @@ A module `mathx` exports square() but not helper(). With GCC 15 (-std=c++20 -fmo
 compiling main.cpp first really fails ("failed to read compiled module ... imports must be built
 before being imported"); compiling mathx.cpp first creates gcm.cache/mathx.gcm, then main builds,
 links and prints 49. Calling the unexported helper is a real "'helper' was not declared" error.
-Run `python3 video125.py --help` for options.
+Run `python3 video10.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

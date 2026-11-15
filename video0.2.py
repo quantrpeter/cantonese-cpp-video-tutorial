@@ -3,7 +3,7 @@
 
 The two tools (g++ and VS Code), install steps for Windows (MSYS2), Mac (Command Line Tools) and
 Linux (apt / dnf), checking with `g++ --version` (a real run), what to do when g++ is not found,
-and online compilers as a fallback. Run `python3 video2.py --help` for options.
+and online compilers as a fallback. Run `python3 video0.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

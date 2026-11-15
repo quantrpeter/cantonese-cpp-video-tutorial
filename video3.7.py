@@ -3,7 +3,7 @@
 
 3.1's printLine with default arguments (three ways to call it); a default that is not at the
 right end is a real error; area() overloaded for squares and rectangles; adding a default to the
-second area makes area(5) a real "ambiguous" error. Run `python3 video36.py --help` for options.
+second area makes area(5) a real "ambiguous" error. Run `python3 video3.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

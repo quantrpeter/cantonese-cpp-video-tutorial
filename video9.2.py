@@ -5,7 +5,7 @@ v.at(5) on a 3-element vector really throws std::out_of_range ("vector::_M_range
 (which is 5) >= this->size() (which is 3)"). A custom NotEnoughMoney derives from
 std::runtime_error. With catch (std::exception) first, g++ really warns "will be caught by
 earlier handler" and the run prints "other: short by 130"; in the right order it prints
-"money: short by 130"; the balance stays 70. Run `python3 video110.py --help` for options.
+"money: short by 130"; the balance stays 70. Run `python3 video9.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

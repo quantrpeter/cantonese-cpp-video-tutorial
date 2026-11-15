@@ -4,7 +4,7 @@
 Animal → Dog. Animal alone really prints "Animal Kitty / Kitty eats". Dog : public Animal reuses
 eat() and adds bark(), but reading name_ while it is private is a real "is private within this
 context" error; protected fixes it. The real run shows the Animal part is built before the Dog
-part. Run `python3 video74.py --help` for options.
+part. Run `python3 video6.12.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -4,7 +4,7 @@
 CMake's FetchContent downloads nlohmann/json 3.11.3 at configure time (the real configure says
 "Using the multi-header code from /work/build/_deps/json-src/include/"), target_link_libraries
 connects it, and the program reads scores.json: class 2A, Amy 72, Ben 91, total 163.
-Run `python3 video123.py --help` for options.
+Run `python3 video10.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

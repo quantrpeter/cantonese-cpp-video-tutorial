@@ -4,7 +4,7 @@
 class BankAccount with deposit, withdraw and show; without public: every member is private and
 acc.owner is a real "is private within this context" error; member functions use the object's
 own data; withdrawing 150 from 70 really leaves -80, the problem 6.3 fixes.
-Run `python3 video64.py --help` for options.
+Run `python3 video6.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

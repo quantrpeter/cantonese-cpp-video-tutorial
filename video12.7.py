@@ -4,7 +4,7 @@
 Backtracking = choose, recurse, un-choose. Permutations of 1..3 really print
 123 132 213 231 312 321. N-Queens places one queen per row, skips unsafe columns, and undoes by
 overwriting: the real counts are 4: 2, 5: 10, 6: 4, 7: 40, 8: 92. The challenge lists all 8
-subsets of {1, 2, 3}. Run `python3 video139.py --help` for options.
+subsets of {1, 2, 3}. Run `python3 video12.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -1,4 +1,4 @@
-"""Builds one video: narration -> scene timing -> frames (logo + subtitles) -> out/videoN.mp4.
+"""Builds one video: narration -> scene timing -> frames (logo + subtitles) -> out/video<id>.mp4.
 
 Each scene waits for its narration (plus a short gap), and for its on-screen actions if those run
 longer. Actions are cued to points in the narration with [[cue]] markers, so a clip that comes out
@@ -42,10 +42,11 @@ class Scene:
 
 
 def options(n: int, argv=None) -> argparse.Namespace:
-    ap = argparse.ArgumentParser(prog=f"video{n}.py", description=f"Builds out/video{n}.mp4 ({course.episode(n).id} {course.episode(n).title}).")
-    ap.add_argument("--draft", action="store_true", help="no TTS: estimated timing, silent, fast encode -> out/video%d-draft.mp4" % n)
+    ep = course.episode(n)
+    ap = argparse.ArgumentParser(prog=f"video{ep.id}.py", description=f"Builds out/video{ep.id}.mp4 ({ep.id} {ep.title}).")
+    ap.add_argument("--draft", action="store_true", help=f"no TTS: estimated timing, silent, fast encode -> out/video{ep.id}-draft.mp4")
     ap.add_argument("--timing", action="store_true", help="with --draft: print the estimated scene timings and stop")
-    ap.add_argument("--stills", action="store_true", help="only write two PNG frames per scene to build/video%d/stills/" % n)
+    ap.add_argument("--stills", action="store_true", help=f"only write two PNG frames per scene to build/video{ep.id}/stills/")
     ap.add_argument("--audio-only", action="store_true", help="make and check the narration, then stop")
     ap.add_argument("--no-asr", action="store_true", help="skip the Whisper check")
     ap.add_argument("--redo", default="", help="scene ids (comma-separated) whose narration to regenerate")
@@ -81,7 +82,7 @@ def build(n: int, scenes: list[Scene], opts: argparse.Namespace, say: dict[str, 
     ids = [s.id for s in scenes]
     if len(set(ids)) != len(ids):
         raise SystemExit("cpptut: scene ids must be unique")
-    work = ROOT / "build" / f"video{n}"
+    work = ROOT / "build" / f"video{ep.id}"
     audio_dir = work / "audio"
     work.mkdir(parents=True, exist_ok=True)
     tag = f"{course.SERIES} · {ep.id} {ep.title}"
@@ -104,7 +105,7 @@ def build(n: int, scenes: list[Scene], opts: argparse.Namespace, say: dict[str, 
     # Timing ---------------------------------------------------------------------------------
     starts, timings, durs = [], [], []
     t = 0.0
-    print(f"\nvideo{n}: {ep.id} {ep.title}")
+    print(f"\nvideo{ep.id}: {ep.title}")
     for k, s in enumerate(scenes):
         lead = FIRST_LEAD if k == 0 else LEAD
         tm = Timing(lead, clip[s.id], cue_shares(s.text, say))
@@ -186,7 +187,7 @@ def build(n: int, scenes: list[Scene], opts: argparse.Namespace, say: dict[str, 
     # Video ----------------------------------------------------------------------------------
     out_dir = ROOT / "out"
     out_dir.mkdir(exist_ok=True)
-    out = out_dir / (f"video{n}-draft.mp4" if opts.draft else f"video{n}.mp4")
+    out = out_dir / (f"video{ep.id}-draft.mp4" if opts.draft else f"video{ep.id}.mp4")
     afilter = "anull" if opts.draft else "loudnorm=I=-16:TP=-1.5:LRA=11"
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
            "-r", str(FPS), "-i", "-", "-i", str(mix), "-filter_complex",

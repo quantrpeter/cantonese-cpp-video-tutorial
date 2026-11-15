@@ -3,7 +3,7 @@
 
 Part 1's project: read weight and height, convert cm to m with a named constant, compute BMI,
 print one decimal place. The natural first try `kg / m * m` really prints the weight back
-(60.0); brackets fix it. Run `python3 video18.py --help` for options.
+(60.0); brackets fix it. Run `python3 video1.12.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

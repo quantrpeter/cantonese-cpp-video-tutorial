@@ -3,7 +3,7 @@
 
 Days in each month in a std::array<int, 12>: size(), at(), range-for; days.at(month) really
 gives 31 for February (off by one) until it becomes month - 1; thirteen values are a real
-compile-time "too many initializers" error. Run `python3 video47.py --help` for options.
+compile-time "too many initializers" error. Run `python3 video4.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

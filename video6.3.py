@@ -4,7 +4,7 @@
 BankAccount with a private balance_ and public deposit/withdraw that check their input; setting
 acc.balance_ = -1000 from main is a real "is private within this context" error; withdrawing 150
 from 70 is refused ("Not enough money"), so the balance can never go negative; a getter.
-Run `python3 video65.py --help` for options.
+Run `python3 video6.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

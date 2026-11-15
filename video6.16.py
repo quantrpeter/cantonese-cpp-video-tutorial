@@ -5,7 +5,7 @@ Car : public Engine really works ("engine starts / car drives") but also lets ca
 repair(car) compile: the run really prints "repairing an engine" for a whole car. A Car has an
 Engine, it is not one: with an Engine member instead, both lines become real errors ("has no
 member named 'start'", "invalid initialization of reference of type 'const Engine&'").
-Run `python3 video78.py --help` for options.
+Run `python3 video6.16.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -4,7 +4,7 @@
 cin >> name stops at the space in "Chan Tai Man"; std::getline reads the whole line; + joins
 strings, size() and [] (shown as boxes with indexes); reading an age with cin first makes
 getline read an empty line, for real; std::cin >> std::ws fixes it.
-Run `python3 video17.py --help` for options.
+Run `python3 video1.11.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -4,7 +4,7 @@
 std::priority_queue<int> really pops 9 7 3 1 (biggest first, a max-heap); with
 std::greater<int> as the third argument it pops 1 3 7 9 (a min-heap). Emergency-room triage
 with pairs {level, name} really serves 5 Dan, 5 Ben, 3 Cat, 2 Amy: equal levels fall back to
-comparing the names. Run `python3 video96.py --help` for options.
+comparing the names. Run `python3 video8.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

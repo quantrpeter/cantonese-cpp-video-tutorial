@@ -4,7 +4,7 @@
 Two threads each add 1,000,000 to a counter, built with -O2. std::atomic<int> and a mutex-guarded
 int both reach 2000000, but the real timings differ a lot (the numbers spoken are the measured
 ones). atomic is enough for one variable updated in one step; several variables that must change
-together still need a mutex. Run `python3 video128.py --help` for options.
+together still need a mutex. Run `python3 video11.3.py --help` for options.
 """
 
 import re

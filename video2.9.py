@@ -3,7 +3,7 @@
 
 A square of stars from two loops, then a triangle by changing the inner condition to `row`,
 traced row by row; the newline moved into the inner loop really prints a column of stars; the
-9 x 9 times table aligned with std::setw. Run `python3 video27.py --help` for options.
+9 x 9 times table aligned with std::setw. Run `python3 video2.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

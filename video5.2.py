@@ -3,7 +3,7 @@
 
 int* p = &score holds score's address (the real address is printed); *p reads it and *p = 99
 changes score through the pointer; `int* p = score;` is a real "invalid conversion" error;
-addOne(int* p) changes the caller's variable. Run `python3 video53.py --help` for options.
+addOne(int* p) changes the caller's variable. Run `python3 video5.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

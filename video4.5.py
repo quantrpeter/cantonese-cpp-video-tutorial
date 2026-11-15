@@ -4,7 +4,7 @@
 int marks[5]: sizeof(marks) / sizeof(marks[0]) gives 5 in main, but inside a function the array
 has decayed to a pointer and the same sum really gives 2 (with g++'s -Wsizeof-array-argument
 warning); passing the size separately; why std::array or std::vector is better.
-Run `python3 video46.py --help` for options.
+Run `python3 video4.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

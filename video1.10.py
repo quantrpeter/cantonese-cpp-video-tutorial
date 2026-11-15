@@ -3,7 +3,7 @@
 
 1.8's average rewritten with auto; what auto deduces (checked by static_assert in a hidden
 compile); the trap `auto total = 0;` that turns 19.5 + 9.8 into 28, for real; and the real
-error for auto without an initialiser. Run `python3 video16.py --help` for options.
+error for auto without an initialiser. Run `python3 video1.10.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

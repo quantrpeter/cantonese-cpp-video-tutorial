@@ -5,7 +5,7 @@ The game loop for a terminal Snake: a 20 × 10 board, the snake as a std::deque<
 front), and each tick: move (push_front a new head, pop_back the tail), draw, sleep 200 ms. draw()
 builds the whole frame in a string that starts with the ANSI codes ESC[2J ESC[H (clear the screen,
 cursor home), so every frame replaces the last. The real run animates the snake moving right for
-13 ticks. Run `python3 video149.py --help` for options.
+13 ticks. Run `python3 video13.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

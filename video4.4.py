@@ -3,7 +3,7 @@
 
 A cinema seating plan as a vector of vectors (3 rows of 4 seats), printed with nested
 range-for loops; booking with seats[c][r] instead of seats[r][c] really puts the X in the wrong
-seat; the fix. Run `python3 video45.py --help` for options.
+seat; the fix. Run `python3 video4.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

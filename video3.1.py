@@ -3,7 +3,7 @@
 
 A banner with the same separator line written three times; changing it by hand misses one, for
 real; printLine() makes it one place to change; a call without () is a real -Waddress warning
-and the line really goes missing. Run `python3 video30.py --help` for options.
+and the line really goes missing. Run `python3 video3.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

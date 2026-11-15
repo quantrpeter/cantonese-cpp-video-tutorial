@@ -3,7 +3,7 @@
 
 Four real g++ errors made on camera (missing semicolon, typo, missing #include, a missing quote
 that cascades), how to read file:line:col, fixing the first error first, and warnings with
--Wall -Wextra. All messages and colours are g++'s own. Run `python3 video5.py --help` for options.
+-Wall -Wextra. All messages and colours are g++'s own. Run `python3 video0.5.py --help` for options.
 """
 
 import re

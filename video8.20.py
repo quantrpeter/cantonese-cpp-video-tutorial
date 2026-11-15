@@ -5,7 +5,7 @@ Durations with units: seconds{90} prints 90s, converts silently to 90000ms, and 
 duration_cast to become minutes (1min, truncated). Going the lossy way implicitly
 (seconds back = ms;) is a real "conversion from 'duration<...1000>>' ... requested" error.
 A steady_clock stopwatch around sleep_for(250ms) really prints 250ms (between 250 and 300).
-Run `python3 video107.py --help` for options.
+Run `python3 video8.20.py --help` for options.
 """
 
 import re

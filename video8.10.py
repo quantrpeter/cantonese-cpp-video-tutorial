@@ -5,7 +5,7 @@ std::deque grows at both ends and still has []: 1 2 3 4 | 1. Putting 200,000 int
 built with -O2: `time ./vf` (vector::insert at begin) really takes about 2.4 s, `time ./df`
 (deque::push_front) about 0.002 s. std::list: inserting before an iterator keeps that iterator
 valid (it still prints 4; list 0 1 2 3 4), but a list has no [] and walks slowly.
-Run `python3 video97.py --help` for options.
+Run `python3 video8.10.py --help` for options.
 """
 
 import re

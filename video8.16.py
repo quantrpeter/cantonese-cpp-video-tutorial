@@ -4,7 +4,7 @@
 findMark returns std::optional<int>: found → 91 (checked with if (a), read with *a); not found →
 std::nullopt, so has_value() is 0 and value_or(-1) gives -1. Calling .value() on the empty one
 really ends the program: "terminate called after throwing an instance of
-'std::bad_optional_access'" then Aborted. Run `python3 video103.py --help` for options.
+'std::bad_optional_access'" then Aborted. Run `python3 video8.16.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

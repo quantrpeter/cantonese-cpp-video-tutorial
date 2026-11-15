@@ -3,7 +3,7 @@
 
 A reference r and a pointer p to the same int; `r = b` does not re-bind r, it really copies b
 into a (a becomes 2); `p = &b` re-points p and *p = 20 changes b; p = nullptr; the differences
-side by side. Run `python3 video54.py --help` for options.
+side by side. Run `python3 video5.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

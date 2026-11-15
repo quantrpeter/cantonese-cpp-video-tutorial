@@ -4,7 +4,7 @@
 Part 8 together: read text.txt with `./top < text.txt`, clean each word (letters only, lower
 case), count with std::map, copy into a vector of pairs, sort with a lambda (count high to low,
 then alphabetical) and print the top 10. The real run: 11 the, 5 dog, 4 cat, 3 and, 3 on, ...
-Run `python3 video108.py --help` for options.
+Run `python3 video8.21.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -3,7 +3,7 @@
 
 A drinks menu with switch, case, break and default; without one break, choice 1 really prints
 Tea and Coffee (g++'s -Wimplicit-fallthrough warning); milk tea falls through on purpose with
-[[fallthrough]]. Run `python3 video22.py --help` for options.
+[[fallthrough]]. Run `python3 video2.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

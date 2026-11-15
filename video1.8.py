@@ -3,7 +3,7 @@
 
 The average of 80 and 95 really prints 87 (int division happens before the value reaches the
 double); static_cast<double> fixes it; implicit conversions; char <-> int with ASCII codes
-('A' + 1 prints 66, static_cast<char> gives B). Run `python3 video14.py --help` for options.
+('A' + 1 prints 66, static_cast<char> gives B). Run `python3 video1.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

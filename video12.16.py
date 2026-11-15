@@ -4,7 +4,7 @@
 Euclid's gcd (84, 36 → 12, same as std::gcd; std::lcm(4, 6) = 12), the sieve of Eratosthenes up to
 50, and modular arithmetic with MOD = 1e9+7 including fast power (2^100 mod MOD = 976371285).
 With `int x = 100000, y = 100000` the product overflows before the % and the real run prints
-410065401; with long long it prints the correct 999999937. Run `python3 video148.py --help`.
+410065401; with long long it prints the correct 999999937. Run `python3 video12.16.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

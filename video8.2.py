@@ -4,7 +4,7 @@
 An explicit begin()/end() loop with *it and ++it really prints 72 64 91. Writing through an
 iterator (*it = 80) and jumping (it += 2) really prints 80 91. A std::list iterator cannot jump:
 lt += 2 is a real "no match for 'operator+='" error; ++lt and std::next work (2 3). Iterator
-categories explain why. Run `python3 video89.py --help` for options.
+categories explain why. Run `python3 video8.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

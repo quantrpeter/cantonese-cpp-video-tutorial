@@ -4,7 +4,7 @@
 first() locks a then b; second() locks b then a, each sleeping 100 ms in between. The real run
 hangs: `timeout 3 ./dead; echo exit $?` prints nothing for 3 seconds and then "exit 124" (killed).
 Locking both mutexes at once with std::scoped_lock both(a, b) really finishes: first done,
-second done, all done. Run `python3 video129.py --help` for options.
+second done, all done. Run `python3 video11.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

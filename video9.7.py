@@ -3,7 +3,7 @@
 
 std::istringstream reads "72 64 abc 91" like cin: >> stops at "abc", so the real sum is 136 (91
 is never reached). std::getline(csv, field, ',') splits "Amy,72,A" into [Amy][72][A]; std::stoi
-and std::ostringstream build "Amy got 77". Run `python3 video115.py --help` for options.
+and std::ostringstream build "Amy got 77". Run `python3 video9.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

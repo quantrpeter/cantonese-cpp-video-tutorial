@@ -4,7 +4,7 @@
 Robots count themselves with static members: without inline, `static int created_ = 0;` is a
 real "ISO C++ forbids in-class initialization of non-const static member" error; with
 static inline the real run shows alive 2, robot c is #3, alive 3, then 2 after c's block;
-Robot::alive() is a static member function. Run `python3 video69.py --help` for options.
+Robot::alive() is a static member function. Run `python3 video6.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

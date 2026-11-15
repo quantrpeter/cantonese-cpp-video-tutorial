@@ -4,7 +4,7 @@
 A graph of 5 nodes and 5 undirected edges read from in.txt ("n m" then one edge per line), stored
 two ways: an adjacency list (vector<vector<int>>) and an adjacency matrix (vector<vector<bool>>).
 The real run prints each node's neighbours (1: 2 3 … 4: 2 3 5, 5: 4) and mat[2][3] mat[3][4] = 0 1.
-The challenge finds the node with most neighbours (4, degree 3). Run `python3 video141.py --help`.
+The challenge finds the node with most neighbours (4, degree 3). Run `python3 video12.9.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -6,7 +6,7 @@ grows the snake (no pop_back that tick), adds a point and shortens the delay (fa
 80 ms). At the end the best score is read from best.txt and written back when beaten. Real run 1:
 the snake eats twice, crashes into the top wall: "game over! score 2 best 2". Real run 2 (no keys):
 eats once, hits the right wall: "game over! score 1 best 2"; `cat best.txt` shows 2.
-Run `python3 video151.py --help` for options.
+Run `python3 video13.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

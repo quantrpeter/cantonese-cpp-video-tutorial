@@ -4,7 +4,7 @@
 The closing video: no program is built. Cards look back over the 13 parts and point to five
 directions to go next: game development (raylib), desktop GUIs (Qt), embedded boards (Arduino,
 ESP32), competitive programming (HKOI), and open source; then how to keep learning.
-Run `python3 video154.py --help` for options.
+Run `python3 video13.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

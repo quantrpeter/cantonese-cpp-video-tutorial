@@ -4,7 +4,7 @@
 A photos/ folder with cat.jpg, dog.png and 2025/beach.jpg (`ls -R photos` really lists it).
 fs::path joins with / (photos/2025/beach.jpg), gives filename beach.jpg and extension .jpg;
 fs::exists answers 1 and 0. A recursive_directory_iterator walk really prints each file with its
-size and the total, 5003 bytes. Run `python3 video116.py --help` for options.
+size and the total, 5003 bytes. Run `python3 video9.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -5,7 +5,7 @@ Designing before coding: nouns become classes (Book, Member, Library), "who owns
 containers (Library owns a vector<Book> and a map<int, Member>), and a borrowed book stores the
 member's id in a std::optional<int> instead of a pointer, so nothing dangles when containers grow
 (8.3). The first version adds three books and two members and really lists them.
-Run `python3 video152.py --help` for options.
+Run `python3 video13.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

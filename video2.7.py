@@ -3,7 +3,7 @@
 
 The while loop from 2.6's challenge next to the same for loop; the three parts and their order;
 sum of 1 to n typed with `i < n`, which really stops at 9 and gives 45 (off-by-one); `<=` fixes
-it; four loop forms with their real output. Run `python3 video25.py --help` for options.
+it; four loop forms with their real output. Run `python3 video2.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

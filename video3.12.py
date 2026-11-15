@@ -3,7 +3,7 @@
 
 Part 3's project: calculate(a, op, b) with a switch, a loop that reads "3 + 4" until q. The
 first version really prints "= inf" for 8 / 0 and "= 0" for 5 x 3; validOp() (grouped cases)
-and an else-if chain fix both. Run `python3 video41.py --help` for options.
+and an else-if chain fix both. Run `python3 video3.12.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

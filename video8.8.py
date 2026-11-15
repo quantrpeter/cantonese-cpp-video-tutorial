@@ -4,7 +4,7 @@
 A bracket matcher on std::stack<char>: the real session prints ok for "(a[1] + b) * {c}", bad
 for "(a[1)]" (the top is [ when ) arrives) and bad for "((x)"
 (one ( left over). A ticket queue on std::queue really serves Amy, Ben, Cat in arrival order.
-Run `python3 video95.py --help` for options.
+Run `python3 video8.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

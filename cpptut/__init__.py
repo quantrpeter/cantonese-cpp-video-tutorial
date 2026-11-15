@@ -1,4 +1,4 @@
-"""cpptut: builds the HKPS Cantonese C++ videos from Python scripts (video1.py, video2.py, …).
+"""cpptut: builds the HKPS Cantonese C++ videos from Python scripts (video0.1.py, video0.2.py, …).
 
 A video script lists its scenes (narration + what is on screen) and calls `build`. Everything
 else is shared here: narration (OmniVoice + Whisper check), the logo on every frame, subtitles,

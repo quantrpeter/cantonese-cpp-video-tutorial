@@ -4,7 +4,7 @@
 Shape::area() is pure virtual (= 0): report(c) really prints 3.14159 for a Circle; `Shape s;`
 is a real "abstract type 'Shape'" error; a Square that forgets area() is abstract too (real
 error naming the pure virtual it lacks); once it has area() the run prints 3.14159 and 4.
-Run `python3 video76.py --help` for options.
+Run `python3 video6.14.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

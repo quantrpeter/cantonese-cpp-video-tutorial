@@ -4,7 +4,7 @@
 A password checker with <cctype> (std::isdigit, cast to unsigned char); "香港" really has
 size() 6 and the bytes e9 a6 99 e6 b8 af (UTF-8); the six-character password 我的密碼12 really
 passes the size() >= 8 rule; counting characters (bytes that do not start with 10) fixes it.
-Run `python3 video49.py --help` for options.
+Run `python3 video4.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

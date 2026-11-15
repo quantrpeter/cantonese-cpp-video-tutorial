@@ -4,7 +4,7 @@
 A Buffer of a million ints. Without a move constructor, std::move(a) really still copies ("copy"
 printed twice): std::move only marks a as movable. A move constructor steals the pointer; one that
 forgets to null the source really crashes (both destructors free it); the correct one prints "move" and
-leaves a with size 0. Run `python3 video72.py --help` for options.
+leaves a with size 0. Run `python3 video6.10.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

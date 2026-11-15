@@ -4,7 +4,7 @@
 A Tracer prints "+ name" when constructed and "- name" when destroyed; the real run shows b and c
 destroyed in reverse order at the end of their block, a function's local destroyed on return,
 and a last; an object made with new really never prints "- heap" (never destroyed) until it is
-owned by a unique_ptr. Run `python3 video67.py --help` for options.
+owned by a unique_ptr. Run `python3 video6.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

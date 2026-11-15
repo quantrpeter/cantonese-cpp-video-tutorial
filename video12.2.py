@@ -5,7 +5,7 @@ Checking a permutation for duplicates two ways, built with -O2: a double loop (O
 neighbours (O(n log n)). Real runs for n = 20000, 40000, 80000: the double loop's time roughly
 quadruples each time n doubles, the sorted version stays at a few milliseconds. Then the rule of
 thumb (about 10⁸ simple steps a second) applied to constraints. Spoken numbers are measured.
-Run `python3 video134.py --help` for options.
+Run `python3 video12.2.py --help` for options.
 """
 
 import re

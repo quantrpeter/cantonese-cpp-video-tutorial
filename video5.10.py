@@ -3,7 +3,7 @@
 
 std::make_shared and use_count really going 2 then 1; Amy and Ben pointing at each other with
 shared_ptr are never destroyed (the run prints no "out" at all: a cycle leak); making buddy a
-std::weak_ptr breaks the cycle and both really say "out". Run `python3 video61.py --help`.
+std::weak_ptr breaks the cycle and both really say "out". Run `python3 video5.10.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

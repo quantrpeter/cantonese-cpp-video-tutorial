@@ -3,7 +3,7 @@
 
 std::cin >> reads one number, then two in one statement; the input is typed into the real
 program (cpp.Input), on one line, on two lines, with extra spaces, and as "abc", which makes
-cin fail. Run `python3 video10.py --help` for options.
+cin fail. Run `python3 video1.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

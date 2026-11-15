@@ -3,7 +3,7 @@
 
 swapInts with value parameters really leaves 1 2; with int& it gives 2 1 (the swap traced step by
 step); swapInts(1, 2) is a real "cannot bind non-const lvalue reference" error; greet takes a
-const std::string& so nothing is copied or changed. Run `python3 video35.py --help`.
+const std::string& so nothing is copied or changed. Run `python3 video3.6.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

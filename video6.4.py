@@ -4,7 +4,7 @@
 A Student constructor with a member initialiser list that also fixes a negative mark (Cat -5
 really becomes 0); `Student a;` is a real "no matching function for call to 'Student::Student()'"
 once a constructor exists; adding a default constructor fixes it.
-Run `python3 video66.py --help` for options.
+Run `python3 video6.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

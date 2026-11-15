@@ -4,7 +4,7 @@
 8.5's word count with std::unordered_map really prints the words in no particular order (bat,
 hat, and, cat, the). 2,000,000 inserts and lookups built with -O2: `time ./m` (std::map) really
 takes 0.46 s, `time ./u` (std::unordered_map) 0.06 s. Hashing explains both: average O(1),
-no order. Run `python3 video93.py --help` for options.
+no order. Run `python3 video8.6.py --help` for options.
 """
 
 import re

@@ -3,7 +3,7 @@
 
 addOne(score) prints 11 inside but score is really still 10 outside: the parameter is a copy
 (shown as two boxes); returning the new value and assigning it fixes it.
-Run `python3 video33.py --help` for options.
+Run `python3 video3.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

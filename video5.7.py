@@ -3,7 +3,7 @@
 
 new int{42} and delete; new int[n] sized at run time and delete[]; without delete[] the program
 runs as if nothing were wrong, but built with -fsanitize=address it ends with a real
-LeakSanitizer report (bytes leaked and the line of the new[]). Run `python3 video58.py --help`.
+LeakSanitizer report (bytes leaked and the line of the new[]). Run `python3 video5.7.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

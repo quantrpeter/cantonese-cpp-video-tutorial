@@ -4,7 +4,7 @@
 The << chain really prints "Amy got 72, avg 68.456"; std::format with {:.1f} gives 68.5. A format
 string asking for three values with only two given is a real compile-time error (call to
 consteval function ... not a constant expression). C++23 std::print / std::println (built with
--std=c++23) really print "Amy   |   72|", 0068.456 and "ff 101". Run `python3 video106.py --help`.
+-std=c++23) really print "Amy   |   72|", 0068.456 and "ff 101". Run `python3 video8.19.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

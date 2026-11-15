@@ -4,7 +4,7 @@
 A 4000 × 4000 grid stored in one vector, summed row by row and column by column and timed with
 steady_clock. Built with -O0 and then -O2, the real runs show both effects: -O2 is several times
 faster, and walking by columns is several times slower than by rows (cache misses), even though
-both sums are 16000000. The numbers spoken are the measured ones. Run `python3 video124.py --help`.
+both sums are 16000000. The numbers spoken are the measured ones. Run `python3 video10.7.py --help`.
 """
 
 import re

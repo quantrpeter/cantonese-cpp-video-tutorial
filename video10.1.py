@@ -4,7 +4,7 @@
 main.cpp + greet.h + greet.cpp built step by step. `g++ -E main.cpp | wc -l` really shows
 36,895 lines after the preprocessor (iostream pasted in); `tail -4` shows our main at the end.
 `g++ -c` makes main.o and greet.o; linking main.o alone is a real "undefined reference to
-`greet(...)'" from ld; linking both runs: Hello, Amy! Run `python3 video118.py --help` for options.
+`greet(...)'" from ld; linking both runs: Hello, Amy! Run `python3 video10.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

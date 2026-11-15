@@ -4,7 +4,7 @@
 Two copy-pasted maxOf overloads (int, double) really print 7 and 2.5. One function template
 replaces both and also works for std::string (banana). maxOf(3, 2.5) is a real "deduced
 conflicting types for parameter 'T' ('int' and 'double')" error; maxOf<double>(3, 2.5) prints 3.
-Run `python3 video81.py --help` for options.
+Run `python3 video7.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

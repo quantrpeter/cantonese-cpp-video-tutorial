@@ -2,7 +2,7 @@
 """Video 7 (syllabus 1.1): 變數：俾資料一個名
 
 A variable as a named box: declare an int, print it, change it with `age = age + 1`, and a real
-case-sensitivity error (`Age` vs `age`). Run `python3 video7.py --help` for options.
+case-sensitivity error (`Age` vs `age`). Run `python3 video1.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

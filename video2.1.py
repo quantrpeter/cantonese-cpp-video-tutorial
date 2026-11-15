@@ -3,7 +3,7 @@
 
 Pass or fail with if, then else; the six comparison operators (results from a real run); the
 `if (mark = 100)` bug that really says "Full marks!" for 75, with g++'s -Wparentheses warning.
-Run `python3 video19.py --help` for options.
+Run `python3 video2.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

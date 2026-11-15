@@ -3,7 +3,7 @@
 
 int, long long, double, char and bool, each with a sample value; bool prints as 1; the real error
 for a char written with double quotes; sizeof for each type, with the real byte counts.
-Run `python3 video9.py --help` for options.
+Run `python3 video1.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

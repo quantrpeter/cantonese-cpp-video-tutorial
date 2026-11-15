@@ -4,7 +4,7 @@
 #define SQUARE(x) x * x really gives 5 for SQUARE(1 + 2), and `g++ -E` shows why (1 + 2 * 1 + 2);
 a constexpr function gives 9. #ifdef DEBUG code only appears when built with -DDEBUG. A header
 included twice without a guard is a real "redefinition of 'struct Point'" error; an #ifndef
-include guard fixes it (prints 3). Run `python3 video119.py --help` for options.
+include guard fixes it (prints 3). Run `python3 video10.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

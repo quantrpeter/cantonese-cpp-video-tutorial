@@ -3,7 +3,7 @@
 
 A countdown with while, traced step by step; without n-- it really loops forever and is
 stopped with Ctrl+C (the real output scrolls by); summing numbers until 0 is entered.
-Run `python3 video24.py --help` for options.
+Run `python3 video2.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

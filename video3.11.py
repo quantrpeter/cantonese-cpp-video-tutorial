@@ -4,7 +4,7 @@
 Two print() functions with the same parameters are a real "redefinition" error; namespaces
 english and cantonese keep them apart (english::print()); std is the standard library's
 namespace; with `using namespace std;` a global named count is a real "ambiguous" error.
-Run `python3 video40.py --help` for options.
+Run `python3 video3.11.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

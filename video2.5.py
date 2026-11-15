@@ -3,7 +3,7 @@
 
 apple or apples: six lines of if/else become one line with ?:; inside cout without brackets it
 is a real flood of errors (<< binds tighter than ==); brackets fix it; nested ?: versus a
-readable else-if. Run `python3 video23.py --help` for options.
+readable else-if. Run `python3 video2.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

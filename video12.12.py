@@ -5,7 +5,7 @@ Weighted shortest path on an MTR-style map: 6 stations, 8 links with made-up min
 keeps a min-heap (priority_queue with greater) of {distance, station}, always settles the closest
 unsettled station, relaxes its links and skips stale heap entries. The real run prints
 "19 min: Central Admiralty TST MongKok KowloonTong ShaTin". The challenge prints every station's
-distance. Run `python3 video144.py --help` for options.
+distance. Run `python3 video12.12.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

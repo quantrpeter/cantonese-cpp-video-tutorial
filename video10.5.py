@@ -4,7 +4,7 @@
 doctest (one header, doctest.h 2.4.11) tests isLeapYear. With the simple `year % 4 == 0` the real
 run reports test.cpp:11 CHECK_FALSE( isLeapYear(1900) ) is NOT correct, "test cases: 2 | 1 passed
 | 1 failed", Status: FAILURE!. With the century rule the run prints 2 passed, Status: SUCCESS!.
-Run `python3 video122.py --help` for options.
+Run `python3 video10.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

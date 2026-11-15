@@ -3,7 +3,7 @@
 
 Grades A to F with an else-if chain; with the A and B branches swapped, 90 really prints B
 (the first true condition wins); an if without braces where "Well done!" prints for 30 marks,
-with g++'s -Wmisleading-indentation warning; a nested if. Run `python3 video21.py --help`.
+with g++'s -Wmisleading-indentation warning; a nested if. Run `python3 video2.3.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

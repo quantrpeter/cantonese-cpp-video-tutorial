@@ -4,7 +4,7 @@
 factorial(n) = n * factorial(n - 1) with a base case; the call stack traced for factorial(5);
 without the base case g++ warns of infinite recursion and the run really ends in a segmentation
 fault (stack overflow); fib(45) with two recursive calls really takes seconds (the time is quoted
-from the run). Run `python3 video38.py --help` for options.
+from the run). Run `python3 video3.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

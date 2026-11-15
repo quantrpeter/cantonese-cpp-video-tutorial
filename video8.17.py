@@ -4,7 +4,7 @@
 std::variant<int, double, std::string> holding 42 has index() 0 and std::get<int> gives 42.
 After v = "Amy", std::get<int>(v) really throws std::bad_variant_access ("std::get: wrong
 index for variant", Aborted); holds_alternative<int>(v) answers 0 safely (index 2). std::visit
-calls one lambda with whatever type is inside: 42 3.5 Ben. Run `python3 video104.py --help`.
+calls one lambda with whatever type is inside: 42 3.5 Ben. Run `python3 video8.17.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

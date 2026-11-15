@@ -3,7 +3,7 @@
 
 mathutil.h (declarations), mathutil.cpp (definitions), main.cpp (uses them). Compiling only
 main.cpp is a real "undefined reference" link error; compiling both works; a header included
-twice without #pragma once is a real redefinition error. Run `python3 video39.py --help`.
+twice without #pragma once is a real redefinition error. Run `python3 video3.10.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

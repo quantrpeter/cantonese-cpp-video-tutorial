@@ -5,7 +5,7 @@ Seven parcels 4 8 2 6 5 3 7 go, in order, onto 3 trucks; what is the smallest po
 load? canShip(cap) answers "is cap enough?" greedily, and the answers are no…no ok…ok, so binary
 search over cap between max (8) and sum (35). The real run prints its tries (21 ok, 14 ok, 11 no,
 13 ok, 12 no) and answer 13. The challenge finds ⌊√1000000⌋ = 1000 the same way.
-Run `python3 video137.py --help` for options.
+Run `python3 video12.5.py --help` for options.
 """
 
 import re

@@ -5,7 +5,7 @@ Real capacity growth while pushing 9 ints: 1 2 4 4 8 8 8 8 16; with reserve(9) i
 emplace_back("Amy", 72) builds a Student in place (Amy 72). An iterator taken before a
 push_back that reallocates really prints garbage, and AddressSanitizer really reports
 heap-use-after-free on the old 12-byte block; taking the iterator after the push_back prints 1.
-Run `python3 video90.py --help` for options.
+Run `python3 video8.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

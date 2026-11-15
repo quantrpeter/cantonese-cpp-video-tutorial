@@ -3,7 +3,7 @@
 
 INT_MAX + 1 really wraps to -2147483648; 12! fits in int but 13! comes out as 1932053504;
 long long fixes it; the trap where `long long s = 100 * 365 * ...` still overflows (g++'s
--Woverflow warning) until 100LL. Run `python3 video12.py --help` for options.
+-Woverflow warning) until 100LL. Run `python3 video1.6.py --help` for options.
 """
 
 from math import factorial

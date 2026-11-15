@@ -5,7 +5,7 @@
 int* for std::vector<int> lets every one of them go: the real run still prints 42 99 42, and
 std::move works too (42). With std::unique_ptr<int[]> as the member instead, `Buffer b = a;`
 is a real "use of deleted function" error: members decide what the class can do.
-Run `python3 video73.py --help` for options.
+Run `python3 video6.11.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -5,7 +5,7 @@ Longest run of consecutive numbers with sum ≤ k (all values non-negative): rig
 every step, left moves forward only while the window is too big. For 2 1 5 2 3 2 6 1 with k = 10
 the real run prints 4 (the window 2 1 5 2). Each pointer only moves forward, so it is O(n).
 The challenge counts pairs in a sorted array with two pointers from both ends (3).
-Run `python3 video136.py --help` for options.
+Run `python3 video12.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

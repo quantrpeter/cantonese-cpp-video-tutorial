@@ -5,7 +5,7 @@ The finished library (header-only library.h): search by part of a title, borrow 
 throw on misuse (already borrowed, no such member, no such book), save to a CSV file. The real demo
 prints the two "Harbour" books, then "error: already borrowed" and "error: no such book";
 `cat books.csv` shows book 1 borrowed by member 1. doctest tests (test.cpp) really pass: 2 test
-cases, 6 assertions. Run `python3 video153.py --help` for options.
+cases, 6 assertions. Run `python3 video13.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

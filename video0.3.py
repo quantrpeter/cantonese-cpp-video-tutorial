@@ -2,7 +2,7 @@
 """Video 3 (syllabus 0.3): Hello, World!
 
 hello.cpp typed line by line with each line explained, compiled and run for real, a second line
-added, and a missing semicolon shown with the real g++ error. Run `python3 video3.py --help`.
+added, and a missing semicolon shown with the real g++ error. Run `python3 video0.3.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

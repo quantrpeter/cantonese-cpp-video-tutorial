@@ -4,7 +4,7 @@
 Producer / consumer: the producer pushes jobs 1..5 into a std::queue (200 ms apart) under a
 mutex and calls notify_one; the consumer sleeps in cv.wait(lock, predicate) until there is a job
 or the producer has finished. The real run prints got 1 … got 5 over about a second, then both
-threads end. Run `python3 video130.py --help` for options.
+threads end. Run `python3 video11.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

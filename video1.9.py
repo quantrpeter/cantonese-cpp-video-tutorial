@@ -4,7 +4,7 @@
 A circle program (area.cpp) with the magic number 3.14159 typed twice (once wrong, 3.14195); a named
 `const` fixes both; changing it is a real "read-only variable" error; constexpr with
 std::numbers::pi; and the real error when a constexpr needs a value read with cin.
-Run `python3 video15.py --help` for options.
+Run `python3 video1.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

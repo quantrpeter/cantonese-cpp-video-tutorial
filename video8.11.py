@@ -4,7 +4,7 @@
 A lambda square(5) really prints 25. count_if with [pass] counts 3 marks of at least 50.
 for_each with [total] is a real "assignment of read-only variable 'total'" error (a by-value
 capture is a const copy); [&total] sums to 266. Captured at creation: with bonus changed to 100
-afterwards, [bonus] really gives 75 and [&bonus] 170. Run `python3 video98.py --help` for options.
+afterwards, [bonus] really gives 75 and [&bonus] 170. Run `python3 video8.11.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

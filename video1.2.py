@@ -3,7 +3,7 @@
 
 An uninitialised total really prints garbage (with g++'s -Wuninitialized warning), `= 0` fixes
 it; `=` vs `{}`; `int price = 9.99` silently becomes 9, `int price{9.99}` is a narrowing error,
-and `double` is the right type. Run `python3 video8.py --help` for options.
+and `double` is the right type. Run `python3 video1.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

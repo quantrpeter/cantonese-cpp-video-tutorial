@@ -4,7 +4,7 @@
 Two counters run as two std::threads. Without join() the real run prints "done" and then
 "terminate called without an active exception" / Aborted. With join() both count to 3; their
 output really interleaves and can even mix inside one item (the real run's text is shown as it
-came). std::jthread joins by itself at the end of its block. Run `python3 video126.py --help`.
+came). std::jthread joins by itself at the end of its block. Run `python3 video11.1.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

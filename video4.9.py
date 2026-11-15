@@ -3,7 +3,7 @@
 
 findIndex() is a linear search (3 for 64, -1 for 50); bubble sort with std::swap prints the
 vector after every pass; writing `i + pass <= v.size()` reads one past the end and really stops
-at g++ 15's assertion; `<` fixes it. Run `python3 video50.py --help` for options.
+at g++ 15's assertion; `<` fixes it. Run `python3 video4.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

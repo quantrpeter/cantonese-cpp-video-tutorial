@@ -3,7 +3,7 @@
 
 std::sort(m.begin(), m.end()) becomes std::ranges::sort(m): 45 58 64 72 91. A pipeline
 m | views::filter(pass) | views::transform(plus5) really prints 69 77 96, and because views are
-lazy, after m[2] = 100 the same view prints 105 77 96. Run `python3 video102.py --help` for options.
+lazy, after m[2] = 100 the same view prints 105 77 96. Run `python3 video8.15.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

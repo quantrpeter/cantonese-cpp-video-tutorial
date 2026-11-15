@@ -4,7 +4,7 @@
 std::sort on a vector<Student> with no comparator is a real 131-line template error whose own
 line says "required from here" at the sort call, followed by "no match for 'operator<'". A lambda
 comparing marks (higher first) really prints Amy 91, Cat 72, Ben 72, Dan 58; adding a name
-tie-break gives Amy, Ben, Cat, Dan. Run `python3 video99.py --help` for options.
+tie-break gives Amy, Ben, Cat, Dan. Run `python3 video8.12.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

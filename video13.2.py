@@ -5,7 +5,7 @@ Steering the snake: RawMode (an RAII struct) switches the terminal out of line m
 termios and restores it in its destructor; readKey() uses select() with a zero timeout so the
 game never waits for a key. w/a/s/d turn (never straight back), q quits; hitting the wall or the
 snake's own body ends the loop with "game over!". In the real run the player presses w and then a,
-and the snake crashes into the left wall. Run `python3 video150.py --help` for options.
+and the snake crashes into the left wall. Run `python3 video13.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

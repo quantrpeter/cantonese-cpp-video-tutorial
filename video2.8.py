@@ -4,7 +4,7 @@
 Asking for a mark until it is 0-100 with do-while (a missing semicolon is a real error); "abc"
 really slips through as 0, so the read itself becomes the check (clear, ignore), as promised
 in 1.4; summing positive numbers with while (true), break and continue.
-Run `python3 video26.py --help` for options.
+Run `python3 video2.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

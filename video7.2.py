@@ -4,7 +4,7 @@
 An IntStack (a vector<int> inside) really prints 3 2 1. Turning it into template <typename T>
 class Stack keeps that output with Stack<int>; `Stack nums;` without <int> is a real "class
 template argument deduction failed" error; Stack<std::string> really prints "world 1".
-Run `python3 video82.py --help` for options.
+Run `python3 video7.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -1,6 +1,7 @@
 """The syllabus, read from the tables in README.md (the single source of truth).
 
-videoN.py is the Nth row of the syllabus: video1 = 0.1, video7 = 1.1, and so on.
+Each script is named by its syllabus id (video0.1.py, video8.20.py, …) and sets N, its row in
+the syllabus: video0.1.py has N = 1, video1.1.py has N = 7, and so on.
 """
 
 from __future__ import annotations
@@ -26,7 +27,7 @@ class Part:
 
 @dataclass(frozen=True)
 class Episode:
-    n: int        # video number: videoN.py
+    n: int        # syllabus row: the N set in the script
     id: str       # syllabus id, e.g. "0.1"
     title: str
     part: Part

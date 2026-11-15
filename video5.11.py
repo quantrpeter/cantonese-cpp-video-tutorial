@@ -4,7 +4,7 @@
 Three bugs in one program, picked by input: reading a[3], int overflow, an uninitialised int.
 Built normally they all "work" (real output: a plausible number, -2147483648, 0) with only a
 -Wuninitialized warning; built with -fsanitize=address,undefined the first two are really
-reported (UBSan + ASan, UBSan) and the third is not. Run `python3 video62.py --help`.
+reported (UBSan + ASan, UBSan) and the third is not. Run `python3 video5.11.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

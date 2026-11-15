@@ -5,7 +5,7 @@ talk(const Animal&) really prints "..." for both a Dog and a Cat until Animal::s
 virtual. Then the Dog barks but the Cat, whose speak() forgot const, is still "..." (g++ really
 warns it was hidden). Adding override turns that into a real "marked 'override', but does not
 override" error; with const the run is Woof! Meow! and a base pointer works too.
-Run `python3 video75.py --help` for options.
+Run `python3 video6.13.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -1,4 +1,4 @@
-"""Makes `python3 videoN.py` work with any python: re-runs the script under the video venv.
+"""Makes `python3 video<id>.py` work with any python: re-runs the script under the video venv.
 
 The venv is the one from newblock-server/skills/video (it has OmniVoice, torch, transformers,
 Pillow, numpy, soundfile, OpenCC, Pygments). Set CPPTUT_PY to use another interpreter.

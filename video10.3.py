@@ -5,7 +5,7 @@
 (C++20, one target `calc`, -Wall -Wextra). `cmake -S . -B build` really configures (GNU 15.3.0),
 `cmake --build build` really compiles both files and links; ./build/calc gives = 7 and
 "Cannot divide by 0". After `touch calc.cpp` the rebuild really recompiles only calc.cpp.
-Run `python3 video120.py --help` for options.
+Run `python3 video10.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

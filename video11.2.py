@@ -4,7 +4,7 @@
 Two jthreads each add 1 to a shared counter 100,000 times. Unprotected, two real runs print two
 different numbers, both below 200000; built with -fsanitize=thread, ThreadSanitizer really
 reports "WARNING: ThreadSanitizer: data race" at race.cpp:10. With a std::mutex and
-std::lock_guard the run prints 200000. Run `python3 video127.py --help` for options.
+std::lock_guard the run prints 200000. Run `python3 video11.2.py --help` for options.
 """
 
 import re

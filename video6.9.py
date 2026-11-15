@@ -4,7 +4,7 @@
 A Buffer that owns a new[] array. The compiler's copy only copies the pointer: changing b really
 changes a too (99 99) and the run ends with a real "free(): double free detected" abort. A copy
 constructor that copies the data fixes it (42 99); then c = a crashes the same way until a copy
-assignment operator exists: the rule of three. Run `python3 video71.py --help` for options.
+assignment operator exists: the rule of three. Run `python3 video6.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

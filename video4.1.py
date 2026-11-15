@@ -3,7 +3,7 @@
 
 Class marks in a std::vector<int>: push_back, size(), [] (boxes with indexes); a for loop with
 `int i < marks.size()` is a real -Wsign-compare warning, std::size_t fixes it; finally the marks
-are read until -1 and the vector grows by itself. Run `python3 video42.py --help` for options.
+are read until -1 and the vector grows by itself. Run `python3 video4.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

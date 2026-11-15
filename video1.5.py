@@ -3,7 +3,7 @@
 
 + - * / % on real numbers (7 / 2 really prints 3), 7.0 / 2, precedence and brackets; a
 seconds -> h m s converter with a real bug (62 minutes) fixed with % 3600; += *= ++.
-Run `python3 video11.py --help` for options.
+Run `python3 video1.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

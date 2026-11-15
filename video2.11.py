@@ -4,7 +4,7 @@
 Part 2's project: the computer picks 1-100 with <random>, a while loop reads guesses and says
 Too big / Too small. The game is really played: the input player halves the range after each
 reply (cpp.Input bisect), and the narration quotes its actual guesses. A forgotten tries++
-really reports 0 tries. Run `python3 video29.py --help` for options.
+really reports 0 tries. Run `python3 video2.11.py --help` for options.
 """
 
 import re

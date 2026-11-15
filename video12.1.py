@@ -5,7 +5,7 @@ A contest template: #include <bits/stdc++.h> (GCC only), using namespace std (fi
 contest program), and fast I/O. Summing 2,000,000 numbers from big.txt (made with a python3
 one-liner) built with -O2: `time ./slow < big.txt` really takes about six times longer than
 `time ./fast < big.txt` with ios::sync_with_stdio(false) and cin.tie(nullptr). Both print
-1999999000000. The challenge reads a test-case count first. Run `python3 video133.py --help`.
+1999999000000. The challenge reads a test-case count first. Run `python3 video12.1.py --help`.
 """
 
 import re

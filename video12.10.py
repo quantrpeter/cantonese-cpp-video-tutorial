@@ -4,7 +4,7 @@
 Counting islands with a recursive depth-first flood fill: every unvisited '#' starts a new
 island, and dfs() paints all land connected to it (up, down, left, right) with the island's
 number. The real run on the 4 × 6 map prints the painted map (11..2. / 1...2. / ..33.. / .....4)
-and 4. The challenge also reports the biggest island (3 cells). Run `python3 video142.py --help`.
+and 4. The challenge also reports the biggest island (3 cells). Run `python3 video12.10.py --help`.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

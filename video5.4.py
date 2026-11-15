@@ -4,7 +4,7 @@
 *p on a nullptr really ends in "Segmentation fault" (After never prints); checking for nullptr
 fixes it. A pointer into a vector really dangles after push_back and prints garbage; built with
 -fsanitize=address the run stops with a real heap-use-after-free report pointing at the line;
-re-taking the pointer fixes it. Run `python3 video55.py --help` for options.
+re-taking the pointer fixes it. Run `python3 video5.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

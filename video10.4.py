@@ -5,7 +5,7 @@ average() of {70, 80, 90} really prints 56.6667 instead of 80. A real gdb sessio
 break average, run, next, next, print i shows $1 = 1 (the loop starts at 1), print v shows the
 vector {70, 80, 90}, backtrace shows main called average, continue prints 56.6667. Starting the
 loop at 0 really prints 80. gdb.init only switches off line editing, paging and two warnings.
-Run `python3 video121.py --help` for options.
+Run `python3 video10.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

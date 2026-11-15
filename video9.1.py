@@ -5,7 +5,7 @@ divide() throws std::runtime_error when b is 0. Uncaught, the real run prints 3.
 "terminate called after throwing an instance of 'std::runtime_error' / what(): divide by zero"
 and Aborted. With try/catch: 3.5, caught: divide by zero, still running ("never" skipped).
 With Guard objects printing in their destructors the real run shows stack unwinding:
-~divide, 3.5, ~divide, ~main, caught. Run `python3 video109.py --help` for options.
+~divide, 3.5, ~divide, ~main, caught. Run `python3 video9.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

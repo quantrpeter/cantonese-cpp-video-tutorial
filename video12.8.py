@@ -4,7 +4,7 @@
 12 is 1100 and 10 is 1010 (bitset): & gives 8, | gives 14, ^ gives 6; 1 << 5 is 32, 12 >> 2 is 3.
 `if (a & b == 8)` really draws "-Wparentheses: suggest parentheses around comparison in operand
 of '&'" and never prints (== binds tighter); `(a & b) == 8` prints "and is 8". Masks 000..111
-enumerate the subsets of {3, 5, 7} with their sums. Run `python3 video140.py --help` for options.
+enumerate the subsets of {3, 5, 7} with their sums. Run `python3 video12.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

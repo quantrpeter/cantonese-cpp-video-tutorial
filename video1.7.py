@@ -3,7 +3,7 @@
 
 0.1 + 0.2 prints 0.3 but is not == 0.3; setprecision(17) shows the tail; comparing with a
 tolerance; a 茶餐廳 bill where setprecision(2) alone prints 38 and std::fixed gives 37.90.
-Run `python3 video13.py --help` for options.
+Run `python3 video1.7.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

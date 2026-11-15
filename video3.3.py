@@ -3,7 +3,7 @@
 
 main first and the functions below it is a real "'square' was not declared in this scope";
 prototypes fix it; declaration vs definition; a misspelt definition (sqare) is a real linker
-error, "undefined reference to `square(int)'". Run `python3 video32.py --help` for options.
+error, "undefined reference to `square(int)'". Run `python3 video3.3.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -3,7 +3,7 @@
 
 Source file vs program file (ls, ls -l with the real sizes), a.out and -o, why an edit needs a new
 compile (run without recompiling and see the old output, for real), and -std=c++20.
-Run `python3 video4.py --help` for options.
+Run `python3 video0.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

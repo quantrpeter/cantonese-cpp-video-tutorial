@@ -3,7 +3,7 @@
 
 A messy program and its tidy twin give the same output (both compiled for real); // and /* */
 comments typed on camera; commenting out a line to disable it; VS Code auto format; naming.
-Run `python3 video6.py --help` for options.
+Run `python3 video0.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -4,7 +4,7 @@
 work() with new[] and delete[] leaks on its early return (a real LeakSanitizer report for the
 n = 5 call); a Buffer struct gets the memory in its constructor and gives it back in its
 destructor, which runs on every way out of the function: the run prints "give back" twice and
-LeakSanitizer is silent. Run `python3 video59.py --help` for options.
+LeakSanitizer is silent. Run `python3 video5.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

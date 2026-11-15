@@ -4,7 +4,7 @@
 Memory as a street of numbered bytes; &a prints a real address (hexadecimal), different on every
 run; the real addresses show a, b, d and c packed next to each other on the stack (4, 8 and 1
 bytes apart); &c on a char really prints the letter, not an address, until it is cast to void*;
-stack vs heap. Run `python3 video52.py --help` for options.
+stack vs heap. Run `python3 video5.1.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

@@ -3,7 +3,7 @@
 
 std::make_unique<Robot>(1) owns a Robot that switches itself off when main ends (no delete);
 a->id; copying the unique_ptr is a real "use of deleted function" error; std::move hands the
-robot to b and leaves a empty. Run `python3 video60.py --help` for options.
+robot to b and leaves a empty. Run `python3 video5.9.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

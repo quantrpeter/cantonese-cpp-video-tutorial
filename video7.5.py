@@ -5,7 +5,7 @@ static_assert(square(4) == 16) passes only while square is constexpr: without it
 is "call to non-'constexpr' function". consteval cube(3) works (25 27) but cube(n) with a plain
 int n is a real "not a constant expression" error. describe() with a plain if fails for both
 types (int has no .size(), string has no * 2); if constexpr compiles only the matching branch:
-number 42 / text 5. Run `python3 video85.py --help` for options.
+number 42 / text 5. Run `python3 video7.5.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

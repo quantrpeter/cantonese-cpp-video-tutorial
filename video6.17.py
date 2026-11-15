@@ -5,7 +5,7 @@ A plain enum Light really prints 0 for Red and converts to int silently; adding 
 its own Orange is a real "'Orange' conflicts with a previous declaration" error. enum class fixes
 the clash (Light::Orange) and refuses `int n = l;` (real error) until static_cast<int>. A switch
 missing the Orange case is a real -Wswitch warning and a real bug (red green orange orange);
-with every case: red green orange red. Run `python3 video79.py --help` for options.
+with every case: red green orange red. Run `python3 video6.17.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

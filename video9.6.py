@@ -4,7 +4,7 @@
 std::ofstream writes two lines to notes.txt (`cat notes.txt` and `ls` really show it).
 Reading back with a misspelled name ("note.txt") and no check really prints nothing at all;
 checking `if (!in)` prints "cannot open"; with the right name std::getline numbers the lines
-(1: buy milk / 2: call Amy). Run `python3 video114.py --help` for options.
+(1: buy milk / 2: call Amy). Run `python3 video9.6.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

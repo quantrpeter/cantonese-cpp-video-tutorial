@@ -3,7 +3,7 @@
 
 for (int m : marks) prints every mark without an index; doubling with `int m` really changes
 nothing (m is a copy); auto& changes the vector; const auto& reads without copying.
-Run `python3 video43.py --help` for options.
+Run `python3 video4.2.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

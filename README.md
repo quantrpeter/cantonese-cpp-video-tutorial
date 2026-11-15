@@ -14,7 +14,7 @@ compiler" to templates, the STL, concurrency and contest algorithms. **Every vid
   and compile with `-std=c++23`.
 - **Video:** 1920×1080, 30 fps, H.264 + AAC, loudness −16 LUFS (the same settings as the
   SemiBlock series).
-- **Production:** one Python script per video (`video1.py`, `video2.py`, …), rerun at any
+- **Production:** one Python script per video, named by its syllabus id (`video0.1.py`, `video0.2.py`, …), rerun at any
   time to rebuild that video. It uses local OmniVoice TTS and a Whisper check (the voice setup of
   `newblock-server/skills/video`), real C++ runs in Docker, and frames drawn in Python. No
   screen recorder, no microphone. See [Making the videos](#making-the-videos).
@@ -336,16 +336,17 @@ transparent background. It appears in three places in every video:
 
 ## Making the videos
 
-Each video is one script in this folder. `video1.py` is syllabus row 1 (0.1), `video7.py` is
-row 7 (1.1), and so on in syllabus order. Rerun a script whenever you change it, and it
-rebuilds `out/videoN.mp4`.
+Each video is one script in this folder, named by its syllabus id: `video0.1.py` is 0.1,
+`video8.20.py` is 8.20. Inside, `N` is the script's row in the syllabus (`video0.1.py` has
+`N = 1`, `video1.1.py` has `N = 7`). Rerun a script whenever you change it, and it rebuilds
+`out/video<id>.mp4`.
 
 ```sh
-python3 video1.py               # -> out/video1.mp4
-python3 video1.py --draft       # silent, estimated timing, fast encode: for checking layout and pace
-python3 video1.py --stills      # two PNGs per scene in build/video1/stills/ (add --draft to skip TTS)
-python3 video1.py --redo why    # regenerate one scene's narration (e.g. after changing its seed)
-python3 video1.py --fresh-runs  # run the C++ programs again instead of using the cached results
+python3 video0.1.py               # -> out/video0.1.mp4
+python3 video0.1.py --draft       # silent, estimated timing, fast encode: for checking layout and pace
+python3 video0.1.py --stills      # two PNGs per scene in build/video0.1/stills/ (add --draft to skip TTS)
+python3 video0.1.py --redo why    # regenerate one scene's narration (e.g. after changing its seed)
+python3 video0.1.py --fresh-runs  # run the C++ programs again instead of using the cached results
 ```
 
 Any `python3` works: the script switches itself to the video venv
@@ -368,11 +369,11 @@ What a run does:
 5. **Renders the frames** in Python (Pillow), adds the logo badge and the subtitles, and
    encodes 1080p30 H.264 with the narration normalised to −16 LUFS.
 6. **Checks the file:** a full decode that must report no errors, and contact sheets in
-   `build/videoN/sheet-*.jpg`.
+   `build/video<id>/sheet-*.jpg`.
 
 ### Writing the next video
 
-Copy `video1.py` to `videoN.py`, set `N`, and replace the scenes. A scene is an id, its
+Copy `video0.1.py` to `video<id>.py`, set `N` to its syllabus row, and replace the scenes. A scene is an id, its
 narration, and what is on screen:
 
 ```python
@@ -462,7 +463,7 @@ Follow "Writing Cantonese scripts" in `skills/videoTutorial.md`. On top of that:
 cantonese-cpp-video-tutorial/
 ├── README.md           this plan (and the syllabus the scripts read)
 ├── hkpsLogo.png        the logo on every video
-├── video1.py …         one script per video
+├── video0.1.py …       one script per video
 ├── cpptut/             the shared library: narration, cards, stage, Docker runs, build
 ├── code/00-01/         the programs each video shows (input.txt, expected.txt, … as needed)
 ├── docker/Dockerfile   the pinned GCC image
@@ -475,7 +476,7 @@ cantonese-cpp-video-tutorial/
 
 1. **Tools:** done. The GCC container, the renderer, the logo badge and the cards are in
    `cpptut/`.
-2. **Part 0:** done. `video1.py` to `video6.py` cover 0.1 to 0.6. Review them with HKPS for
+2. **Part 0:** done. `video0.1.py` to `video0.6.py` cover 0.1 to 0.6. Review them with HKPS for
    voice, pace, font size and logo placement before making more.
 3. **Part 1 next.** Video 10 (1.4, `cin`) needs the input feature under "Not built yet" first.
 4. **Produce part by part.** Release a part when all its videos pass the checks below.

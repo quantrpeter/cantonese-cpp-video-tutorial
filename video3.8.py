@@ -3,7 +3,7 @@
 
 The loop variable i used after its loop is a real "'i' was not declared in this scope"; a visit
 counter with a local count really prints "Visit #1" three times; a global fixes it but anyone can
-change it; a static local is the clean fix. Run `python3 video37.py --help` for options.
+change it; a static local is the clean fix. Run `python3 video3.8.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)

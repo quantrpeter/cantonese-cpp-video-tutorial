@@ -5,7 +5,7 @@ The same mistake twice: maxOf(p, q) with a Point that has no >. Unconstrained, g
 reports "no match for 'operator>'" at line 5 inside maxOf, i.e. inside the template's own code.
 With a concept Comparable (requires a > b) the real error is at the call: "constraints not
 satisfied ... the required expression '(a > b)' is invalid". std::integral on isEven; the
-final run prints 7 1. Run `python3 video84.py --help` for options.
+final run prints 7 1. Run `python3 video7.4.py --help` for options.
 """
 
 from cpptut import *  # noqa: F403  (switches to the video venv first if needed)
